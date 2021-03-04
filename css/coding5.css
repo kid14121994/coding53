@@ -1,0 +1,390 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.search-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-nav a {
+    box-sizing: border-box;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+.search-nav img:hover {
+    opacity: 0.7;
+}
+
+.header-inner h1 {
+    text-align: center;
+}
+
+.header-logo a {
+    font-family: quicksand;
+    font-size: 70px;
+    color: #1e0606;
+    letter-spacing: 11px;
+}
+
+.header-logo a:hover {
+    text-decoration: underline;
+}
+
+.header-logo span {
+    font-size: 35px;
+}
+
+.header-nav {
+    margin-top: 50px;
+    margin-bottom: 46px;
+}
+
+.header-nav ul {
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+    margin: 0 auto;
+    list-style: none;
+    font-family: quicksand;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-nav a {
+    color: #1e0606;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #f1f0f0;
+    height: 1300px;
+}
+
+.mv {
+    width: 100%;
+}
+
+.articles {
+    display: flex;
+    width: 1240px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main-area a {
+    display: block;
+}
+
+.main-area a:hover {
+    opacity: 0.7;
+}
+
+.main-block {
+    display: flex;
+    margin-top: 40px;
+}
+
+.sub-visual {
+    position: relative;
+    top: -207px;
+    left: -5px;
+}
+
+.main-photo {
+    width: 280px;
+    height: 200px;
+}
+
+.main-article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    height: 200px;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.description {
+    color: #1e0606;
+    font-family: quicksand;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 auto;
+    text-align: justify;
+    width: 435px;
+    height: 90px;
+    letter-spacing: 8px;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: quicksand;
+    display: inline-block;
+    height: 30px;
+    padding-top: 33px;
+    padding-left: 40px;
+    color: #1e0606;
+
+}
+
+
+.date p {
+    display: inline-block;
+    padding-left: 15px;
+    height: 20px;
+}
+
+.main-logo {
+    display: flex;
+    height: 26px;
+    width: 70px;
+    margin-right: 40px;
+    margin-top: 28px;
+    background-color: #bfa34c;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: quicksand;
+    font-weight: bold;
+}
+
+.aside-photo {
+    width: 370px;
+    margin-top: 43px;
+}
+
+.table ul {
+    width: 370px;
+    font-weight: bold;
+    font-family: quicksand;
+    font-size: 15px;
+    list-style: none;
+    margin-top: 25px;
+    background-color: #ffffff;
+}
+
+.table li {
+    display: flex;
+    height: 47px;
+    width: 370px;
+    align-items: center;
+    border: #f1f0f0 solid 1px;
+}
+
+.table a {
+    display: flex;
+    color: #000;
+    height: 50px;
+    width: 370px;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.table a:hover {
+    text-decoration: underline;
+}
+
+.table a::before{
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-top: 2px solid #f1f0f0;
+    border-right: 2px solid #f1f0f0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    left: 300px;
+}
+
+.category {
+    justify-content: center;
+    color: #ffffff;
+    background-color: #bfa34c;
+}
+
+.information {
+    display: flex;
+    width: 760px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.information a {
+    position: relative;
+    top: -87px;
+    left: 330px;
+}
+
+.footer-logo {
+    font-family: quicksand;
+    font-size: 50px;
+    color: #1e0606;
+    letter-spacing: 10px;
+}
+
+.footer-logo span {
+    font-size: 25px;
+}
+
+.store-information {
+    font-size: 15px;
+    font-family: quicksand;
+    color: #202020;
+    margin-right: 120px;
+}
+
+.store-information p {
+    padding-top: 8px;
+}
+
+.link {
+    border-top: solid 2px #f3f3f3;
+    padding-top: 30px;
+}
+
+.link ul {
+    display: flex;
+    width: 660px;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.link a {
+    box-sizing: border-box;
+    display: flex;
+    color: #202020;
+    font-size: 15px;
+    height: 30px;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.link-border {
+    border-right: solid 2px #f5f4f4;
+    -webkit-transform: skewX(150deg);
+    -moz-transform: skewX(150deg);
+    transform: skewX(150deg);
+}
+
+.link-border1 {
+    display: block;
+    transform: skewX(-150deg);
+}
+
+.link p {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: quicksand;
+    color: #1e0606;
+    font-size: 13px;
+}
